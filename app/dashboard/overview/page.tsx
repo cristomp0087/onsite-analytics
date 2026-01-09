@@ -38,11 +38,11 @@ import {
 } from 'recharts';
 
 const COLORS = {
-  primary: '#f97316',
+  primary: '#3b82f6',
   success: '#10b981',
   warning: '#f59e0b',
   danger: '#ef4444',
-  info: '#3b82f6',
+  info: '#0ea5e9',
   purple: '#8b5cf6',
 };
 

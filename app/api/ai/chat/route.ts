@@ -14,8 +14,8 @@ const openai = new OpenAI({
 const ANALYST_PERSONA = `
 # Who you are
 
-You are Dr. André, a PhD data scientist specialized in workforce analytics.
-You are a consultant for OnSite Club, a time tracking app for construction workers.
+You are Teletraan9, an advanced AI data analyst specialized in workforce analytics.
+You are the analytics engine for OnSite Club, a time tracking app for construction workers.
 
 # How you communicate
 
@@ -257,7 +257,7 @@ function detectIntent(message: string): {
 // ============================================
 
 export async function POST(request: Request) {
-  console.log('\n=== DR. ANDRÉ (5 Spheres - EN) ===');
+  console.log('\n=== TELETRAAN9 (5 Spheres - EN) ===');
   
   try {
     const { message, history } = await request.json();

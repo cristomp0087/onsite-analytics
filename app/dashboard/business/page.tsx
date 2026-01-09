@@ -32,7 +32,7 @@ import {
   Legend,
 } from 'recharts';
 
-const COLORS = ['#f97316', '#10b981', '#3b82f6', '#8b5cf6'];
+const COLORS = ['#3b82f6', '#10b981', '#0ea5e9', '#8b5cf6'];
 
 interface BusinessMetrics {
   totalSessions: number;
@@ -226,7 +226,7 @@ export default function BusinessPage() {
                     <XAxis dataKey="name" tick={{ fontSize: 10 }} />
                     <YAxis />
                     <Tooltip />
-                    <Line type="monotone" dataKey="value" stroke="#f97316" strokeWidth={2} />
+                    <Line type="monotone" dataKey="value" stroke="#3b82f6" strokeWidth={2} />
                   </LineChart>
                 </ResponsiveContainer>
               </div>
@@ -248,7 +248,7 @@ export default function BusinessPage() {
                   <YAxis dataKey="name" type="category" tick={{ fontSize: 11 }} width={150} />
                   <Tooltip />
                   <Legend />
-                  <Bar dataKey="sessions" fill="#f97316" name="Sessions" />
+                  <Bar dataKey="sessions" fill="#3b82f6" name="Sessions" />
                   <Bar dataKey="hours" fill="#10b981" name="Hours" />
                 </BarChart>
               </ResponsiveContainer>

@@ -28,7 +28,7 @@ import {
   Cell,
 } from 'recharts';
 
-const FUNNEL_COLORS = ['#22c55e', '#84cc16', '#eab308', '#f97316', '#ef4444'];
+const FUNNEL_COLORS = ['#22c55e', '#84cc16', '#eab308', '#3b82f6', '#ef4444'];
 
 interface ProductMetrics {
   avgAppOpens: number;
@@ -200,7 +200,7 @@ export default function ProductPage() {
                       <XAxis dataKey="name" tick={{ fontSize: 10 }} angle={-45} textAnchor="end" height={80} />
                       <YAxis />
                       <Tooltip />
-                      <Bar dataKey="value" fill="#f97316" radius={[4, 4, 0, 0]} />
+                      <Bar dataKey="value" fill="#3b82f6" radius={[4, 4, 0, 0]} />
                     </BarChart>
                   </ResponsiveContainer>
                 ) : (

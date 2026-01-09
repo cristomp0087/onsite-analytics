@@ -29,7 +29,7 @@ import {
   Legend,
 } from 'recharts';
 
-const COLORS = ['#f97316', '#10b981', '#3b82f6', '#8b5cf6', '#ec4899'];
+const COLORS = ['#3b82f6', '#10b981', '#0ea5e9', '#8b5cf6', '#ec4899'];
 
 interface IdentityMetrics {
   total: number;
@@ -210,7 +210,7 @@ export default function IdentityPage() {
                     <XAxis dataKey="name" tick={{ fontSize: 10 }} />
                     <YAxis />
                     <Tooltip />
-                    <Bar dataKey="value" fill="#f97316" radius={[4, 4, 0, 0]} />
+                    <Bar dataKey="value" fill="#3b82f6" radius={[4, 4, 0, 0]} />
                   </BarChart>
                 </ResponsiveContainer>
               </div>
